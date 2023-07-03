@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp3
+namespace ExchangeRate
 {
     public class ExchangeRateList
     {
-        public string BaseCurrency { get; set; }
-        public Dictionary<string, decimal> Rates { get; set; }
-
-        // Other properties and methods of the ExchangeRateList class
+        public string disclaimer { get; set; }
+        public string license { get; set; }
+        public long timestamp { get; set; }
+        public string Base { get; set; }
+        public Dictionary<string, decimal> rates { get; set; }
 
         public override string ToString()
         {
-            return $"ExchangeRateList (BaseCurrency: {BaseCurrency}, Rates: {Rates.Count})";
+            return $"ExchangeRateList (BaseCurrency: {Base}, Rates: {rates.Count})";
         }
     }
 }

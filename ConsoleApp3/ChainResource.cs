@@ -142,7 +142,7 @@ namespace ChainResource
 
         public override async Task<T> Read()
         {
-            var response = await httpClient.GetAsync(apiUrl);
+            var response = await httpClient.GetAsync(apiUrl + "?app_id=bc7d7c0c29f9426c8b88805ed4b33610");
             if (response.IsSuccessStatusCode)
             {
                 var json = await response.Content.ReadAsStringAsync();

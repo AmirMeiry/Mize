@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amirm\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "projectUniqueName": "C:\\Users\\amirm\\Projects\\Mize\\ConsoleApp3\\ConsoleApp3.csproj",
       "projectName": "ConsoleApp3",
-      "projectPath": "C:\\Users\\amirm\\source\\repos\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "projectPath": "C:\\Users\\amirm\\Projects\\Mize\\ConsoleApp3\\ConsoleApp3.csproj",
       "packagesPath": "C:\\Users\\amirm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amirm\\source\\repos\\ConsoleApp3\\ConsoleApp3\\obj\\",
+      "outputPath": "C:\\Users\\amirm\\Projects\\Mize\\ConsoleApp3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amirm\\AppData\\Roaming\\NuGet\\NuGet.Config",
